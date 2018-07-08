@@ -26,7 +26,7 @@ services:
       - ./api/:/api/
     working_dir: /api/
     command: npm run dev
-    container_name: bar
+    container_name: api
     environment:
       - VIRTUAL_HOST=api
       - VIRTUAL_PORT=3000
